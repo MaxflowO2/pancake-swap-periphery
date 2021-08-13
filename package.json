@@ -1,6 +1,6 @@
 {
-  "name": "pancakeswap-peripheral",
-  "version": "1.1.0-beta.0",
+  "name": "@maxflowo2/pancakeswap-peripheral",
+  "version": "0.1.0",
   "description": "🎚 Peripheral smart contracts for interacting with pancake",
   "engines": {
     "node": ">=10"
@@ -8,7 +8,7 @@
   "homepage": "https://pancakeswap.finance",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-swap-periphery.git"
+    "url": "https://github.com/MaxflowO2/pancake-swap-periphery.git"
   },
   "files": [
     "build",
@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "@uniswap/lib": "1.1.1",
-    "@uniswap/v2-core": "^1.0.1",
+    "@pancakeswap-libs/pancake-swap-core": "^0.1.0",
     "truffle-hdwallet-provider": "^1.0.17",
     "truffle-plugin-verify": "^0.4.0"
   },
@@ -48,3 +48,4 @@
   },
   "license": "GPL-3.0-or-later"
 }
+
